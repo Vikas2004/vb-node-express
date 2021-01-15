@@ -29,6 +29,6 @@ app.get('/help',(req,res)=>{
     res.send("You have requested the help page! ")
 })
 
-app.get('/help/:topic',(req,res)=>{
-    res.send("login page! ")
-})
+app.get('/help/:id', (req, res) => {
+    res.send(`help response for ${req.params.id}`)
+  })
