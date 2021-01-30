@@ -22,11 +22,9 @@ app.get('/about',(req,res)=>{
 })
 
 app.get('/contact',(req,res)=>{
-<<<<<<< HEAD
-    res.send("You have reached contact page of Vikas. Please reach out to me at S538336@nwmissouri.edu")
-=======
+
     res.send("You have reached the contact page of Vikas. Please reach out to me at S538336@nwmissouri.edu")
->>>>>>> 6e4ae949f1e8ac4c4d618599f0ffaf729d5b00c0
+
 })
 
 app.get('/help',(req,res)=>{
